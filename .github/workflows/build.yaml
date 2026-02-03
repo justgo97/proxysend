@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        game: [tf2]
+        game: [css]
         sm: ['1.11']
     steps:
       - name: setup env
